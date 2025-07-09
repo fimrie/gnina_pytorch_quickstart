@@ -1,0 +1,24 @@
+HEADER    PROTEIN BINDING                                             
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 13:07:21 2019 
+HETATM    1  C4  AEF A 202      18.238   4.625  17.222  1.00 33.12           C  
+HETATM    2  C5  AEF A 202      16.206   1.671  16.002  1.00 35.30           C  
+HETATM    3  C6  AEF A 202      18.613   1.171  15.736  1.00 34.15           C  
+HETATM    4  C7  AEF A 202      18.486   5.410  15.859  1.00 34.99           C  
+HETATM    5  C8  AEF A 202      17.269   0.831  15.572  1.00 35.40           C  
+HETATM    6  O10 AEF A 202      16.906  -0.415  14.987  1.00 35.62           O  
+HETATM    7  C3  AEF A 202      18.926   2.441  16.320  1.00 34.58           C  
+HETATM    8  C2  AEF A 202      16.588   2.904  16.614  1.00 33.24           C  
+HETATM    9  C1  AEF A 202      17.890   3.235  16.709  1.00 32.20           C  
+HETATM   10  N9  AEF A 202      18.854   6.892  16.089  1.00 38.22           N1+
+CONECT    1    4    9
+CONECT    2    5    5    8
+CONECT    3    5    7    7
+CONECT    4    1   10
+CONECT    5    2    2    3    6
+CONECT    6    5
+CONECT    7    3    3    9
+CONECT    8    2    9    9
+CONECT    9    1    7    8    8
+CONECT   10    4
+END

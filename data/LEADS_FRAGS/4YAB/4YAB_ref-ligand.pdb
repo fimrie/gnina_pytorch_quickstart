@@ -1,0 +1,38 @@
+HEADER    TRANSCRIPTION/TRANSCRIPTION INHIBITOR                       
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 16:45:29 2019 
+HETATM    1  CAA 4CN A1103      51.182   2.493 152.490  1.00 51.72           C  
+HETATM    2  CAL 4CN A1103      49.942   2.295 151.613  1.00 48.73           C  
+HETATM    3  NAI 4CN A1103      49.927   2.011 150.282  1.00 42.20           N  
+HETATM    4  SAJ 4CN A1103      48.530   2.434 152.150  1.00 48.65           S  
+HETATM    5  CAF 4CN A1103      47.705   2.089 150.601  1.00 47.18           C  
+HETATM    6  CAO 4CN A1103      48.698   1.875 149.702  1.00 43.20           C  
+HETATM    7  CAM 4CN A1103      48.548   1.635 148.360  1.00 32.28           C  
+HETATM    8  CAG 4CN A1103      47.316   1.389 147.700  1.00 29.22           C  
+HETATM    9  CAN 4CN A1103      47.237   1.183 146.381  1.00 27.81           C  
+HETATM   10  CAH 4CN A1103      46.208   0.913 145.509  1.00 28.53           C  
+HETATM   11  CAK 4CN A1103      46.744   0.760 144.264  1.00 26.20           C  
+HETATM   12  OAC 4CN A1103      46.166   0.533 143.193  1.00 28.00           O  
+HETATM   13  NAQ 4CN A1103      48.042   0.924 144.351  1.00 26.60           N  
+HETATM   14  CAB 4CN A1103      48.985   0.869 143.174  1.00 28.70           C  
+HETATM   15  CAP 4CN A1103      48.381   1.160 145.641  1.00 26.21           C  
+HETATM   16  CAE 4CN A1103      49.569   1.400 146.205  1.00 26.52           C  
+HETATM   17  CAD 4CN A1103      49.694   1.610 147.575  1.00 28.52           C  
+CONECT    1    2
+CONECT    2    1    3    3    4
+CONECT    3    2    2    6
+CONECT    4    2    5
+CONECT    5    4    6    6
+CONECT    6    3    5    5    7
+CONECT    7    6    8   17   17
+CONECT    8    7    9    9
+CONECT    9    8    8   10   15
+CONECT   10    9   11
+CONECT   11   10   12   12   13
+CONECT   12   11   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15    9   13   16   16
+CONECT   16   15   15   17
+CONECT   17    7    7   16
+END

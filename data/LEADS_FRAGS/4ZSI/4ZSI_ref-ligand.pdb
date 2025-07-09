@@ -1,0 +1,36 @@
+HEADER    TRANSCRIPTION                                               
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 22 09:47:28 2019 
+HETATM    1  C2  4R1 B 301      -4.105  15.753  27.994  1.00 30.61           C  
+HETATM    2  C4  4R1 B 301      -2.770  15.872  30.113  1.00 24.30           C  
+HETATM    3  C5  4R1 B 301      -1.876  16.846  29.370  1.00 21.87           C  
+HETATM    4  C6  4R1 B 301      -0.450  16.777  29.865  1.00 19.89           C  
+HETATM    5  O1  4R1 B 301      -3.058  16.713  25.988  1.00 38.77           O  
+HETATM    6  OAF 4R1 B 301       1.177  19.369  30.562  1.00 20.32           O1-
+HETATM    7  PAP 4R1 B 301       1.646  18.353  29.549  1.00 20.91           P1+
+HETATM    8  OAG 4R1 B 301       2.452  17.216  30.152  1.00 20.68           O1-
+HETATM    9  OAB 4R1 B 301       2.241  18.944  28.291  1.00 21.43           O1-
+HETATM   10  O6  4R1 B 301       0.297  17.665  29.026  1.00 21.14           O  
+HETATM   11  O5  4R1 B 301      -1.858  16.501  27.984  1.00 27.75           O  
+HETATM   12  C1  4R1 B 301      -3.138  16.776  27.420  1.00 31.17           C  
+HETATM   13  N2  4R1 B 301      -5.407  15.910  27.359  1.00 35.20           N1+
+HETATM   14  C3  4R1 B 301      -4.181  15.923  29.513  1.00 27.20           C  
+HETATM   15  O3  4R1 B 301      -4.966  14.879  30.088  0.51 25.49           O  
+HETATM   16  O4  4R1 B 301      -2.744  16.183  31.521  1.00 24.41           O  
+CONECT    1   12   13   14
+CONECT    2    3   14   16
+CONECT    3    2    4   11
+CONECT    4    3   10
+CONECT    5   12
+CONECT    6    7
+CONECT    7    6    8    9   10
+CONECT    8    7
+CONECT    9    7
+CONECT   10    4    7
+CONECT   11    3   12
+CONECT   12    1    5   11
+CONECT   13    1
+CONECT   14    1    2   15
+CONECT   15   14
+CONECT   16    2
+END

@@ -1,0 +1,24 @@
+HEADER    TRANSPORT                                                   
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 11:16:31 2019 
+HETATM    1  O   4CS A1311      43.861  31.439  35.079  1.00 11.19           O1-
+HETATM    2  C   4CS A1311      43.535  31.158  33.900  1.00  7.95           C  
+HETATM    3  OXT 4CS A1311      43.461  29.994  33.478  1.00 10.18           O  
+HETATM    4  CA  4CS A1311      43.284  32.271  32.939  1.00  8.74           C  
+HETATM    5  CB  4CS A1311      42.387  33.363  33.510  1.00  7.50           C  
+HETATM    6  CAD 4CS A1311      42.187  34.438  32.449  1.00  7.53           C  
+HETATM    7  NAG 4CS A1311      41.837  33.864  31.157  1.00  5.69           N  
+HETATM    8  CAI 4CS A1311      42.070  32.614  30.842  1.00  8.37           C  
+HETATM    9  CAA 4CS A1311      41.540  32.121  29.519  1.00  5.47           C  
+HETATM   10  N   4CS A1311      42.715  31.809  31.674  1.00  7.67           N  
+CONECT    1    2
+CONECT    2    1    3    3    4
+CONECT    3    2    2
+CONECT    4    2    5   10
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9   10   10
+CONECT    9    8
+CONECT   10    4    8    8
+END

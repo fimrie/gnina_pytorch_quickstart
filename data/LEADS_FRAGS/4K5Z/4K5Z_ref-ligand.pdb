@@ -1,0 +1,26 @@
+HEADER    HYDROLASE/HYDROLASE INHIBITOR                               
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 10:03:50 2019 
+HETATM    1  O9  1P7 A 703      60.176  59.781   1.013  1.00 37.87           O  
+HETATM    2  C8  1P7 A 703      60.771  60.648   0.385  1.00 32.53           C  
+HETATM    3  N7  1P7 A 703      60.680  61.990   0.566  1.00 37.36           N  
+HETATM    4  C6  1P7 A 703      61.563  62.665  -0.402  1.00 32.68           C  
+HETATM    5  C10 1P7 A 703      61.711  60.348  -0.701  1.00 30.56           C  
+HETATM    6  C11 1P7 A 703      62.129  59.130  -1.241  1.00 30.37           C  
+HETATM    7  C2  1P7 A 703      63.044  59.144  -2.274  1.00 34.55           C  
+HETATM    8 CL1  1P7 A 703      63.575  57.626  -2.951  1.00 46.58          CL  
+HETATM    9  C5  1P7 A 703      62.212  61.558  -1.201  1.00 31.06           C  
+HETATM   10  C4  1P7 A 703      63.125  61.556  -2.233  1.00 30.41           C  
+HETATM   11  C3  1P7 A 703      63.541  60.348  -2.768  1.00 37.59           C  
+CONECT    1    2    2
+CONECT    2    1    1    3    5
+CONECT    3    2    4
+CONECT    4    3    9
+CONECT    5    2    6    6    9
+CONECT    6    5    5    7
+CONECT    7    6    8   11   11
+CONECT    8    7
+CONECT    9    4    5   10   10
+CONECT   10    9    9   11
+CONECT   11    7    7   10
+END

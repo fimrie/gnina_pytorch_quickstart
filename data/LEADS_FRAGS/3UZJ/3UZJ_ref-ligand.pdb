@@ -1,0 +1,22 @@
+HEADER    LYASE/LYASE INHIBITOR                                       
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 16:51:15 2019 
+HETATM    1  NAF 0CT A 301      -0.443  34.500 -17.624  0.75  8.14           N  
+HETATM    2  CAH 0CT A 301      -1.192  35.320 -16.865  0.75 11.98           C  
+HETATM    3  CAC 0CT A 301      -2.375  35.978 -17.089  0.75  9.50           C  
+HETATM    4  CAA 0CT A 301      -2.998  36.829 -16.217  0.75  9.15           C  
+HETATM    5  CAB 0CT A 301      -2.318  37.010 -15.009  0.75 10.11           C  
+HETATM    6  CAD 0CT A 301      -1.081  36.329 -14.706  0.75 11.93           C  
+HETATM    7  CAI 0CT A 301      -0.518  35.496 -15.670  0.75 12.03           C  
+HETATM    8  NAG 0CT A 301       0.578  34.751 -15.796  0.75 12.04           N  
+HETATM    9  NAE 0CT A 301       0.581  34.230 -16.949  0.75 10.58           N  
+CONECT    1    2    9
+CONECT    2    1    3    7    7
+CONECT    3    2    4    4
+CONECT    4    3    3    5
+CONECT    5    4    6    6
+CONECT    6    5    5    7
+CONECT    7    2    2    6    8
+CONECT    8    7    9    9
+CONECT    9    1    8    8
+END

@@ -1,0 +1,32 @@
+HEADER    CELL CYCLE                                                  
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 11:46:03 2019 
+HETATM    1  N1  X0U B1291     124.556 103.807 -43.296  0.80 14.36           N  
+HETATM    2  N2  X0U B1291     125.237 104.436 -41.142  0.80 13.93           N  
+HETATM    3  C1  X0U B1291     124.378 101.503 -46.240  0.80 14.65           C  
+HETATM    4  C2  X0U B1291     125.240 100.477 -45.765  0.80 13.31           C  
+HETATM    5  C3  X0U B1291     124.779  99.190 -47.726  0.80 14.02           C  
+HETATM    6  C4  X0U B1291     124.425 100.527 -48.392  0.80 19.32           C  
+HETATM    7  C5  X0U B1291     124.129 102.666 -45.467  0.80 13.76           C  
+HETATM    8  C6  X0U B1291     124.723 102.765 -44.179  0.80 12.57           C  
+HETATM    9  C7  X0U B1291     125.556 101.711 -43.721  0.80 13.88           C  
+HETATM   10  C8  X0U B1291     125.853 100.567 -44.495  0.80 12.56           C  
+HETATM   11  C9  X0U B1291     125.243 103.585 -42.194  0.80 12.65           C  
+HETATM   12  O1  X0U B1291     123.754 101.433 -47.465  0.80 18.87           O  
+HETATM   13  O2  X0U B1291     125.536  99.342 -46.488  0.80 12.96           O  
+HETATM   14  S   X0U B1291     126.122 102.091 -42.161  0.80 12.80           S  
+CONECT    1    8   11   11
+CONECT    2   11
+CONECT    3    4    7    7   12
+CONECT    4    3   10   10   13
+CONECT    5    6   13
+CONECT    6    5   12
+CONECT    7    3    3    8
+CONECT    8    1    7    9    9
+CONECT    9    8    8   10   14
+CONECT   10    4    4    9
+CONECT   11    1    1    2   14
+CONECT   12    3    6
+CONECT   13    4    5
+CONECT   14    9   11
+END

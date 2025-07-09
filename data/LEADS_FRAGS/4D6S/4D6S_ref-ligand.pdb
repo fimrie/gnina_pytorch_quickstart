@@ -1,0 +1,26 @@
+HEADER    TRANSCRIPTION                                               
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 08:28:43 2019 
+HETATM    1  N3  DMD A1340      -2.178 -17.973  13.174  1.00 18.28           N  
+HETATM    2  N1  DMD A1340      -3.117 -16.709  14.828  1.00 17.22           N  
+HETATM    3  C2  DMD A1340      -2.209 -17.657  14.554  1.00 17.97           C  
+HETATM    4  C7A DMD A1340      -3.706 -16.360  13.598  1.00 17.55           C  
+HETATM    5  C3A DMD A1340      -3.129 -17.152  12.570  1.00 16.28           C  
+HETATM    6  C4  DMD A1340      -3.504 -17.006  11.228  1.00 19.47           C  
+HETATM    7  C5  DMD A1340      -4.446 -16.043  10.934  1.00 18.73           C  
+HETATM    8  C6  DMD A1340      -5.031 -15.238  11.944  1.00 19.80           C  
+HETATM    9  C7  DMD A1340      -4.675 -15.393  13.281  1.00 19.50           C  
+HETATM   10  C8  DMD A1340      -4.846 -15.833   9.510  1.00 28.94           C  
+HETATM   11  C9  DMD A1340      -6.035 -14.195  11.541  1.00 24.99           C  
+CONECT    1    3    5
+CONECT    2    3    3    4
+CONECT    3    1    2    2
+CONECT    4    2    5    9    9
+CONECT    5    1    4    6    6
+CONECT    6    5    5    7
+CONECT    7    6    8    8   10
+CONECT    8    7    7    9   11
+CONECT    9    4    4    8
+CONECT   10    7
+CONECT   11    8
+END

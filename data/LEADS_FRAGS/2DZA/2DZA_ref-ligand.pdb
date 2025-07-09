@@ -1,0 +1,24 @@
+HEADER    TRANSFERASE                                                 
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 10:03:52 2019 
+HETATM    1  C1' PAB B1301      -3.829  43.272  -0.421  1.00 32.85           C  
+HETATM    2  O1' PAB B1301      -3.963  42.527   0.548  1.00 32.44           O1-
+HETATM    3  O2' PAB B1301      -4.447  44.329  -0.317  1.00 32.18           O  
+HETATM    4  C1  PAB B1301      -3.017  42.966  -1.581  1.00 33.65           C  
+HETATM    5  C2  PAB B1301      -2.303  41.738  -1.719  1.00 34.49           C  
+HETATM    6  C3  PAB B1301      -1.522  41.452  -2.851  1.00 36.20           C  
+HETATM    7  C4  PAB B1301      -1.444  42.398  -3.903  1.00 37.73           C  
+HETATM    8  C5  PAB B1301      -2.140  43.620  -3.799  1.00 34.97           C  
+HETATM    9  C6  PAB B1301      -2.923  43.895  -2.658  1.00 33.97           C  
+HETATM   10  N4  PAB B1301      -0.726  42.195  -5.004  1.00 38.39           N  
+CONECT    1    2    3    3    4
+CONECT    2    1
+CONECT    3    1    1
+CONECT    4    1    5    9    9
+CONECT    5    4    6    6
+CONECT    6    5    5    7
+CONECT    7    6    8    8   10
+CONECT    8    7    7    9
+CONECT    9    4    4    8
+CONECT   10    7
+END

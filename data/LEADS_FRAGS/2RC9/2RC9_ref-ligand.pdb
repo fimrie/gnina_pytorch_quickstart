@@ -1,0 +1,18 @@
+HEADER    MEMBRANE PROTEIN                                            
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 10:44:41 2019 
+HETATM    1  CB  1AC A1001      13.258   2.098   6.630  1.00 10.44           C  
+HETATM    2  CG  1AC A1001      14.068   1.895   7.925  1.00  9.73           C  
+HETATM    3  CA  1AC A1001      13.007   0.875   7.503  1.00  9.49           C  
+HETATM    4  C   1AC A1001      11.768   0.877   8.361  1.00  7.91           C  
+HETATM    5  OXT 1AC A1001      11.442   1.937   8.931  1.00 12.30           O1-
+HETATM    6  O   1AC A1001      11.115  -0.199   8.478  1.00  9.68           O  
+HETATM    7  N   1AC A1001      13.527  -0.391   6.996  1.00  8.98           N1+
+CONECT    1    2    3
+CONECT    2    1    3
+CONECT    3    1    2    4    7
+CONECT    4    3    5    6    6
+CONECT    5    4
+CONECT    6    4    4
+CONECT    7    3
+END

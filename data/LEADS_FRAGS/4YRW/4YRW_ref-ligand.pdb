@@ -1,0 +1,28 @@
+HEADER    OXIDOREDUCTASE                                              
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Wed Sep 25 13:31:11 2019 
+HETATM    1  N1  URC A3006      20.835  22.909  18.291  1.00 30.22           N  
+HETATM    2  C2  URC A3006      20.935  22.074  17.211  1.00 28.56           C  
+HETATM    3  C6  URC A3006      19.886  22.791  19.249  1.00 27.90           C  
+HETATM    4  N3  URC A3006      20.144  21.034  17.028  1.00 24.92           N  
+HETATM    5  O11 URC A3006      21.860  22.257  16.383  1.00 31.25           O  
+HETATM    6  C4  URC A3006      19.162  20.771  17.919  1.00 26.98           C  
+HETATM    7  C5  URC A3006      18.949  21.660  19.085  1.00 26.87           C  
+HETATM    8  N9  URC A3006      18.195  19.842  17.993  1.00 26.24           N  
+HETATM    9  O13 URC A3006      19.785  23.619  20.245  1.00 27.08           O  
+HETATM   10  N7  URC A3006      17.856  21.220  19.767  1.00 27.55           N  
+HETATM   11  C8  URC A3006      17.461  20.120  19.091  1.00 31.67           C  
+HETATM   12  O24 URC A3006      16.391  19.439  19.415  1.00 27.64           O  
+CONECT    1    2    3
+CONECT    2    1    4    5    5
+CONECT    3    1    7    9    9
+CONECT    4    2    6
+CONECT    5    2    2
+CONECT    6    4    7    7    8
+CONECT    7    3    6    6   10
+CONECT    8    6   11
+CONECT    9    3    3
+CONECT   10    7   11
+CONECT   11    8   10   12   12
+CONECT   12   11   11
+END

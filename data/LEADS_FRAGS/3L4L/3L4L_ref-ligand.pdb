@@ -1,0 +1,20 @@
+HEADER    TRANSPORT PROTEIN                                           
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 15:25:17 2019 
+HETATM    1  C1' HBX A 200      17.941  30.637  31.823  1.00 20.88           C  
+HETATM    2  O1' HBX A 200      17.310  31.106  30.887  1.00 35.75           O  
+HETATM    3  C1  HBX A 200      19.374  30.966  31.930  1.00 15.85           C  
+HETATM    4  C2  HBX A 200      20.229  30.165  32.684  1.00 15.66           C  
+HETATM    5  C3  HBX A 200      21.578  30.489  32.755  1.00 19.12           C  
+HETATM    6  C4  HBX A 200      22.058  31.598  32.075  1.00 16.98           C  
+HETATM    7  C5  HBX A 200      21.205  32.396  31.321  1.00 17.60           C  
+HETATM    8  C6  HBX A 200      19.858  32.078  31.249  1.00 17.21           C  
+CONECT    1    2    2    3
+CONECT    2    1    1
+CONECT    3    1    4    8    8
+CONECT    4    3    5    5
+CONECT    5    4    4    6
+CONECT    6    5    7    7
+CONECT    7    6    6    8
+CONECT    8    3    3    7
+END

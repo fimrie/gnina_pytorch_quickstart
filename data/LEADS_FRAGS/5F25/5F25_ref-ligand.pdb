@@ -1,0 +1,40 @@
+HEADER    TRANSCRIPTION                                               
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 22 10:29:46 2019 
+HETATM    1  N1  5TU A 201       3.837  -4.350   3.336  1.00 51.03           N  
+HETATM    2  C4  5TU A 201      12.340  -5.361   4.884  1.00 33.55           C  
+HETATM    3  C5  5TU A 201      13.047  -6.685   4.975  1.00 33.51           C  
+HETATM    4  C6  5TU A 201      13.087  -4.073   4.893  1.00 32.36           C  
+HETATM    5  C7  5TU A 201       8.770  -4.121   4.622  1.00 42.01           C  
+HETATM    6  C8  5TU A 201       8.018  -3.100   5.227  1.00 44.15           C  
+HETATM    7  C10 5TU A 201       5.960  -4.194   4.551  1.00 47.94           C  
+HETATM    8  C13 5TU A 201       4.457  -4.239   4.513  1.00 50.43           C  
+HETATM    9  O1  5TU A 201       3.830  -4.184   5.561  1.00 51.30           O  
+HETATM   10  C9  5TU A 201       6.618  -3.132   5.185  1.00 45.99           C  
+HETATM   11  C11 5TU A 201       6.703  -5.224   3.960  1.00 46.64           C  
+HETATM   12  C12 5TU A 201       8.100  -5.185   3.997  1.00 44.51           C  
+HETATM   13  C2  5TU A 201      10.268  -4.111   4.689  1.00 37.31           C  
+HETATM   14  C1  5TU A 201      10.992  -2.907   4.706  1.00 35.20           C  
+HETATM   15  C3  5TU A 201      10.951  -5.329   4.796  1.00 35.82           C  
+HETATM   16  O   5TU A 201      14.337  -4.075   4.988  1.00 30.69           O  
+HETATM   17  N   5TU A 201      12.338  -2.866   4.806  1.00 32.78           N  
+HETATM   18  C   5TU A 201      13.007  -1.560   4.808  1.00 30.89           C  
+CONECT    1    8
+CONECT    2    3    4   15   15
+CONECT    3    2
+CONECT    4    2   16   16   17
+CONECT    5    6   12   12   13
+CONECT    6    5   10   10
+CONECT    7    8   10   11   11
+CONECT    8    1    7    9    9
+CONECT    9    8    8
+CONECT   10    6    6    7
+CONECT   11    7    7   12
+CONECT   12    5    5   11
+CONECT   13    5   14   14   15
+CONECT   14   13   13   17
+CONECT   15    2    2   13
+CONECT   16    4    4
+CONECT   17    4   14   18
+CONECT   18   17
+END

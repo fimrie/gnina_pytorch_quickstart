@@ -1,0 +1,22 @@
+HEADER    HYDROLASE                                                   
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Wed Sep 25 12:38:45 2019 
+HETATM    1  C1  NBZ A 202       3.081   9.478   2.069  0.80 19.39           C  
+HETATM    2  C2  NBZ A 202       4.042  10.481   2.110  0.80 16.90           C  
+HETATM    3  C3  NBZ A 202       5.118  10.444   1.242  0.80 14.12           C  
+HETATM    4  C4  NBZ A 202       5.239   9.395   0.338  0.80 17.33           C  
+HETATM    5  C5  NBZ A 202       4.298   8.378   0.306  0.80 18.54           C  
+HETATM    6  C6  NBZ A 202       3.220   8.423   1.180  0.80 20.54           C  
+HETATM    7  N1  NBZ A 202       2.305   7.463   1.157  0.80 23.50           N1+
+HETATM    8  O1  NBZ A 202       1.193   7.540   1.994  0.80 23.21           O  
+HETATM    9  O2  NBZ A 202       2.434   6.389   0.263  0.80 27.67           O  
+CONECT    1    2    6    6
+CONECT    2    1    3    3
+CONECT    3    2    2    4
+CONECT    4    3    5    5
+CONECT    5    4    4    6
+CONECT    6    1    1    5    7
+CONECT    7    6    8    9    9
+CONECT    8    7
+CONECT    9    7    7
+END

@@ -1,0 +1,30 @@
+HEADER    HYDROLASE                                                   
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 10:18:52 2019 
+HETATM    1  O3  UA5 A 701      18.051  -7.144  29.189  1.00 13.41           O1-
+HETATM    2  S1  UA5 A 701      19.527  -7.139  29.268  1.00 15.69           S2+
+HETATM    3  O1  UA5 A 701      20.084  -8.347  28.633  1.00 16.11           O1-
+HETATM    4  O2  UA5 A 701      19.997  -6.976  30.668  1.00 14.51           O1-
+HETATM    5  N1  UA5 A 701      19.994  -5.845  28.431  1.00 14.95           N  
+HETATM    6  C3  UA5 A 701      21.292  -5.440  28.449  1.00 18.23           C  
+HETATM    7  C6  UA5 A 701      21.732  -4.501  29.378  1.00 17.54           C  
+HETATM    8  C2  UA5 A 701      23.062  -4.077  29.372  1.00 18.68           C  
+HETATM    9  C5  UA5 A 701      23.957  -4.591  28.439  1.00 21.53           C  
+HETATM   10  C7  UA5 A 701      25.409  -4.141  28.445  1.00 23.71           C  
+HETATM   11  C8  UA5 A 701      25.600  -2.966  27.512  1.00 31.82           C  
+HETATM   12  C4  UA5 A 701      23.517  -5.526  27.506  1.00 19.78           C  
+HETATM   13  C1  UA5 A 701      22.186  -5.945  27.509  1.00 17.86           C  
+CONECT    1    2
+CONECT    2    1    3    4    5
+CONECT    3    2
+CONECT    4    2
+CONECT    5    2    6
+CONECT    6    5    7   13   13
+CONECT    7    6    8    8
+CONECT    8    7    7    9
+CONECT    9    8   10   12   12
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    9    9   13
+CONECT   13    6    6   12
+END

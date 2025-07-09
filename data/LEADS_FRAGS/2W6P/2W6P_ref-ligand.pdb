@@ -1,0 +1,42 @@
+HEADER    LIGASE                                                      
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 11:23:32 2019 
+HETATM    1  C1  OA4 A1447       3.898 -24.758  24.463  1.00 22.62           C  
+HETATM    2  C2  OA4 A1447       3.160 -23.848  25.240  1.00 22.50           C  
+HETATM    3  C3  OA4 A1447       1.913 -24.321  25.736  1.00 22.97           C  
+HETATM    4  N4  OA4 A1447       1.513 -25.585  25.471  1.00 22.37           N  
+HETATM    5  C5  OA4 A1447       2.270 -26.418  24.728  1.00 22.72           C  
+HETATM    6  N6  OA4 A1447       3.448 -26.007  24.223  1.00 22.76           N1+
+HETATM    7  N7  OA4 A1447       1.021 -23.641  26.496  1.00 22.71           N  
+HETATM    8  C8  OA4 A1447       5.127 -24.425  23.915  1.00 22.62           C  
+HETATM    9  C9  OA4 A1447       5.650 -23.165  24.124  1.00 22.68           C  
+HETATM   10  C12 OA4 A1447       4.951 -22.226  24.882  1.00 23.11           C  
+HETATM   11  C13 OA4 A1447       3.708 -22.553  25.454  1.00 22.76           C  
+HETATM   12  N14 OA4 A1447       1.839 -27.670  24.478  1.00 22.67           N  
+HETATM   13  C26 OA4 A1447       7.654 -19.741  25.726  1.00 25.01           C  
+HETATM   14  C27 OA4 A1447       7.059 -18.532  25.387  1.00 24.17           C  
+HETATM   15  C10 OA4 A1447       2.991 -21.509  26.279  1.00 22.76           C  
+HETATM   16  C22 OA4 A1447       5.763 -18.507  24.882  1.00 25.30           C  
+HETATM   17  C23 OA4 A1447       5.051 -19.694  24.707  1.00 24.79           C  
+HETATM   18  CAP OA4 A1447       5.639 -20.910  25.051  1.00 23.03           C  
+HETATM   19  C25 OA4 A1447       6.944 -20.927  25.553  1.00 25.06           C  
+CONECT    1    2    6    6    8
+CONECT    2    1    3    3   11
+CONECT    3    2    2    4    7
+CONECT    4    3    5    5
+CONECT    5    4    4    6   12
+CONECT    6    1    1    5
+CONECT    7    3
+CONECT    8    1    9    9
+CONECT    9    8    8   10
+CONECT   10    9   11   11   18
+CONECT   11    2   10   10   15
+CONECT   12    5
+CONECT   13   14   14   19
+CONECT   14   13   13   16
+CONECT   15   11
+CONECT   16   14   17   17
+CONECT   17   16   16   18
+CONECT   18   10   17   19   19
+CONECT   19   13   18   18
+END

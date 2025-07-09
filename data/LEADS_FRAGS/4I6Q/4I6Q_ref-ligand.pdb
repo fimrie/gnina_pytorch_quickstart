@@ -1,0 +1,24 @@
+HEADER    TRANSFERASE/TRANSFERASE INHIBITOR                           
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Wed Sep 25 12:46:30 2019 
+HETATM    1  C1  PHU A1201       6.734 -22.563 -28.369  1.00 55.10           C  
+HETATM    2  C2  PHU A1201       8.032 -24.546 -27.386  1.00 52.91           C  
+HETATM    3  C3  PHU A1201       8.116 -25.039 -26.062  1.00 51.52           C  
+HETATM    4  C4  PHU A1201       8.268 -25.432 -28.466  1.00 52.35           C  
+HETATM    5  C5  PHU A1201       8.643 -26.750 -28.198  1.00 50.64           C  
+HETATM    6  C6  PHU A1201       8.494 -26.359 -25.823  1.00 47.76           C  
+HETATM    7  C7  PHU A1201       8.740 -27.196 -26.901  1.00 44.26           C  
+HETATM    8  N1  PHU A1201       7.640 -23.183 -27.520  1.00 51.13           N  
+HETATM    9  N2  PHU A1201       6.549 -21.244 -28.042  1.00 42.59           N  
+HETATM   10  O1  PHU A1201       6.088 -23.071 -29.355  1.00 46.84           O  
+CONECT    1    8    9   10   10
+CONECT    2    3    4    4    8
+CONECT    3    2    6    6
+CONECT    4    2    2    5
+CONECT    5    4    7    7
+CONECT    6    3    3    7
+CONECT    7    5    5    6
+CONECT    8    1    2
+CONECT    9    1
+CONECT   10    1    1
+END

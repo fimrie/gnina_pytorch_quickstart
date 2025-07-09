@@ -1,0 +1,24 @@
+HEADER    LIGASE                                                      
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 14:06:44 2019 
+HETATM    1  O8  3SK A1000      16.089  -3.548  23.600  1.00 13.84           O1-
+HETATM    2  C1  3SK A1000      15.047  -3.283  24.246  1.00 13.62           C  
+HETATM    3  O9  3SK A1000      14.372  -4.109  24.923  1.00 13.88           O  
+HETATM    4  C2  3SK A1000      14.489  -1.885  24.128  1.00 12.14           C  
+HETATM    5  C3  3SK A1000      14.180  -1.346  22.890  1.00 11.31           C  
+HETATM    6  C4  3SK A1000      13.612  -0.094  22.785  1.00 13.12           C  
+HETATM    7  C5  3SK A1000      13.418   0.696  23.920  1.00 11.77           C  
+HETATM    8  C6  3SK A1000      13.694   0.145  25.151  1.00 11.05           C  
+HETATM    9  C7  3SK A1000      14.236  -1.146  25.290  1.00 11.99           C  
+HETATM   10  C10 3SK A1000      14.526  -1.654  26.687  1.00 14.27           C  
+CONECT    1    2
+CONECT    2    1    3    3    4
+CONECT    3    2    2
+CONECT    4    2    5    9    9
+CONECT    5    4    6    6
+CONECT    6    5    5    7
+CONECT    7    6    8    8
+CONECT    8    7    7    9
+CONECT    9    4    4    8   10
+CONECT   10    9
+END

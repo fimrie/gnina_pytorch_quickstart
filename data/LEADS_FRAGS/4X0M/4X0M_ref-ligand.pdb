@@ -1,0 +1,28 @@
+HEADER    TRANSFERASE                                                 
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 16:11:30 2019 
+HETATM    1  C1  3WA A 601      17.429  69.268   3.960  1.00 15.90           C  
+HETATM    2  C2  3WA A 601      18.810  69.622   4.009  1.00 17.25           C  
+HETATM    3  C3  3WA A 601      16.834  68.627   5.159  1.00 20.55           C  
+HETATM    4  N6  3WA A 601      19.383  70.171   2.926  1.00 12.01           N  
+HETATM    5  C7  3WA A 601      17.651  68.476   6.316  1.00 22.64           C  
+HETATM    6  C11 3WA A 601      18.930  68.899   6.293  1.00 23.34           C  
+HETATM    7  C12 3WA A 601      18.679  70.304   1.803  1.00  6.80           C  
+HETATM    8  C4  3WA A 601      16.719  69.497   2.744  1.00 11.46           C  
+HETATM    9  N5  3WA A 601      19.504  69.441   5.182  1.00 20.59           N  
+HETATM   10  O8  3WA A 601      15.689  68.208   5.173  1.00 21.55           O  
+HETATM   11  N9  3WA A 601      17.400  69.998   1.695  1.00  9.62           N  
+HETATM   12  N10 3WA A 601      15.411  69.086   2.587  1.00  9.58           N  
+CONECT    1    2    3    8    8
+CONECT    2    1    4    4    9
+CONECT    3    1    5   10   10
+CONECT    4    2    2    7
+CONECT    5    3    6    6
+CONECT    6    5    5    9
+CONECT    7    4   11   11
+CONECT    8    1    1   11   12
+CONECT    9    2    6
+CONECT   10    3    3
+CONECT   11    7    7    8
+CONECT   12    8
+END

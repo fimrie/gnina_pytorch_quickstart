@@ -1,0 +1,24 @@
+HEADER    LYASE                                                       
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 15 15:23:02 2019 
+HETATM    1  C1  PAC A5000       6.182  12.601  16.028  1.00  7.51           C  
+HETATM    2  C2  PAC A5000       6.443  11.695  14.839  1.00 10.86           C  
+HETATM    3  C1' PAC A5000       5.703  11.895  13.532  1.00 10.30           C  
+HETATM    4  C2' PAC A5000       5.529  10.749  12.750  1.00 11.27           C  
+HETATM    5  C3' PAC A5000       4.873  10.813  11.522  1.00 11.25           C  
+HETATM    6  C4' PAC A5000       4.391  12.036  11.065  1.00 10.46           C  
+HETATM    7  C5' PAC A5000       4.557  13.189  11.842  1.00 11.27           C  
+HETATM    8  C6' PAC A5000       5.220  13.129  13.072  1.00  9.88           C  
+HETATM    9  O1  PAC A5000       5.318  13.522  16.014  1.00  6.87           O1-
+HETATM   10  O2  PAC A5000       6.894  12.363  17.045  1.00  8.56           O  
+CONECT    1    2    9   10   10
+CONECT    2    1    3
+CONECT    3    2    4    8    8
+CONECT    4    3    5    5
+CONECT    5    4    4    6
+CONECT    6    5    7    7
+CONECT    7    6    6    8
+CONECT    8    3    3    7
+CONECT    9    1
+CONECT   10    1    1
+END

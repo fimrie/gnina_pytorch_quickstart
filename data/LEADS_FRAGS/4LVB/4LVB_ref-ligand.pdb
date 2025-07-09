@@ -1,0 +1,36 @@
+HEADER    TRANSFERASE/TRANSFERASE INHIBITOR                           
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Tue Jul 16 10:14:01 2019 
+HETATM    1  C1  20N A 601      13.373   3.908  -3.873  1.00 19.46           C  
+HETATM    2  C2  20N A 601      13.423   5.120  -2.980  1.00 19.41           C  
+HETATM    3  O3  20N A 601      12.501   5.905  -3.028  1.00 12.96           O  
+HETATM    4  N4  20N A 601      14.492   5.284  -2.160  1.00 16.05           N  
+HETATM    5  C5  20N A 601      14.713   6.344  -1.254  1.00 12.34           C  
+HETATM    6  C6  20N A 601      15.690   6.160  -0.284  1.00 14.53           C  
+HETATM    7  C7  20N A 601      15.957   7.154   0.632  1.00 13.89           C  
+HETATM    8  C8  20N A 601      15.273   8.362   0.600  1.00 10.67           C  
+HETATM    9  C9  20N A 601      14.283   8.546  -0.360  1.00  9.46           C  
+HETATM   10  C10 20N A 601      14.010   7.546  -1.279  1.00  6.64           C  
+HETATM   11  N11 20N A 601      15.595   9.283   1.614  1.00  9.37           N  
+HETATM   12  C12 20N A 601      14.870  10.349   2.043  1.00 13.06           C  
+HETATM   13  O13 20N A 601      13.827  10.700   1.530  1.00 11.08           O  
+HETATM   14  C14 20N A 601      15.404  11.135   3.216  1.00 14.25           C  
+HETATM   15  C15 20N A 601      14.381  11.502   4.296  1.00 14.31           C  
+HETATM   16  C16 20N A 601      14.959  12.587   3.386  1.00 19.62           C  
+CONECT    1    2
+CONECT    2    1    3    3    4
+CONECT    3    2    2
+CONECT    4    2    5
+CONECT    5    4    6   10   10
+CONECT    6    5    7    7
+CONECT    7    6    6    8
+CONECT    8    7    9    9   11
+CONECT    9    8    8   10
+CONECT   10    5    5    9
+CONECT   11    8   12
+CONECT   12   11   13   13   14
+CONECT   13   12   12
+CONECT   14   12   15   16
+CONECT   15   14   16
+CONECT   16   14   15
+END

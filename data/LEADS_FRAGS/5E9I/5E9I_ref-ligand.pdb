@@ -1,0 +1,24 @@
+HEADER    TRANSCRIPTION                                               
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Mon Jul 22 10:08:48 2019 
+HETATM    1  O01 F60 A2001     -28.495 -11.013   0.591  0.85 29.90           O  
+HETATM    2  C02 F60 A2001     -27.426 -10.112   0.496  0.85 28.89           C  
+HETATM    3  C03 F60 A2001     -26.129 -10.591   0.343  0.85 24.22           C  
+HETATM    4  C04 F60 A2001     -25.048  -9.667   0.245  0.85 30.82           C  
+HETATM    5  C05 F60 A2001     -25.291  -8.314   0.296  0.85 32.36           C  
+HETATM    6  C06 F60 A2001     -24.003  -7.704   0.160  0.85 29.27           C  
+HETATM    7  C07 F60 A2001     -23.050  -8.720   0.040  0.85 19.71           C  
+HETATM    8  N08 F60 A2001     -23.692  -9.872   0.091  0.85 20.98           N  
+HETATM    9  C09 F60 A2001     -26.616  -7.827   0.447  0.85 32.13           C  
+HETATM   10  C10 F60 A2001     -27.675  -8.733   0.546  0.85 31.51           C  
+CONECT    1    2
+CONECT    2    1    3   10   10
+CONECT    3    2    4    4
+CONECT    4    3    3    5    8
+CONECT    5    4    6    9    9
+CONECT    6    5    7    7
+CONECT    7    6    6    8
+CONECT    8    4    7
+CONECT    9    5    5   10
+CONECT   10    2    2    9
+END
